@@ -22,21 +22,21 @@ public partial class DashBoardView : ContentPage
 			new Profile
 			{
 				Name = "Zheer",
-				ProfileImage = "",
+				ProfileImage = "dotnet_bot.svg",
 				NoPhotos=10
 
 			},
 			new Profile
 			{
 				Name = "rahand",
-				ProfileImage = "",
+				ProfileImage = "dotnet_bot.svg",
 				NoPhotos=11
 
 			},
 			new Profile
 			{
 				Name = "shadyar",
-				ProfileImage = "",
+				ProfileImage = "dotnet_bot.svg",
 				NoPhotos=12
 
 			},
@@ -44,21 +44,36 @@ public partial class DashBoardView : ContentPage
 		generatedImages = new ObservableCollection<GeneratedImage>()
 		{
 		new	GeneratedImage{
-			ImagePath = "picture_l.jpg",
+			ImagePath = "dotnet_bot.svg",
 			MainKeyword = "Castle",
 			Keyword = new List<string>
 			{
 				"Epic", "Hill", "Nature", "Tree", "Blue Sky"
 			}
 
-			}
+			},
 
-		};
+        new GeneratedImage{
+            ImagePath = "dotnet_bot.svg",
+            MainKeyword = "Sea",
+            Keyword = new List<string>
+            {
+                "Epic", "Hill", "Nature", "Tree", "Blue Sky"
+            }
 
+            },
 
+        new GeneratedImage{
+            ImagePath = "dotnet_bot.svg",
+            MainKeyword = "City",
+            Keyword = new List<string>
+            {
+                "Epic", "Hill", "Nature", "Tree", "Blue Sky"
+            }
 
+            }
 
-
+        };
 		generatedImages = new ObservableCollection<GeneratedImage>();
 
 

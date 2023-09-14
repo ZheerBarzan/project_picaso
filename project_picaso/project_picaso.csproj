@@ -51,7 +51,6 @@
 	<ItemGroup>
 	  <None Remove="Resources\Fonts\Nexa-Light.otf" />
 	  <None Remove="Resources\Fonts\Nexa-Regular.otf" />
-	  <None Remove="Resources\Images\picture_l.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>

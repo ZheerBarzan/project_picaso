@@ -28,7 +28,7 @@
                     Aspect="AspectFill"
                     HeightRequest="100"
                     HorizontalOptions="Center"
-                    Source="dotnet_bot"
+                    Source="dotnet_bot.svg"
                     WidthRequest="100"
                     ></Image>
             </Border>
